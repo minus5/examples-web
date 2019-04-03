@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console":0,
+        "no-debugger":0,
+        "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}]
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "globals": {
+        "SRLive": true,
+        "swfobject": true
+    },
+    "parser": "babel-eslint"
+}
