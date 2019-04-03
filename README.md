@@ -24,4 +24,4 @@ U prezentaciji ću analizirati neke pristupe kod rješavanja ovog problema u okv
 - interface injection
 - service locator
 
-Pokazat ću i primjer aplikacije koja ima arhitekturu po uzoru na www.supersport.hr, naš najveći i najvažniji proizvod.
+Pokazat ću i [primjer aplikacije](./demo) koja ima arhitekturu po uzoru na www.supersport.hr, naš najveći i najvažniji proizvod.
