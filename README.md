@@ -1,4 +1,4 @@
-# Dependency management u fronted aplikacijama
+# Dependency management u frontend aplikacijama
 
 Osim u produkciji, očekujemo da kod radi i u dev environmentu, na stagingu i u testovima. Očekujemo i da više aplikacija koristi isti kod. 
 
