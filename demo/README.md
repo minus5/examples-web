@@ -12,10 +12,10 @@ npm run story
 ```
 
 
-Pokretanje aplikacije s [mockanim backendom](./src/api/backend):
+Pokretanje aplikacije s [mockanim backendom](./src/api/mock.js):
 
 ```
 npm run mock
 ```
 
-Preostaje još samo pokretanje aplikacije [s pravim (http) backendom](./src/api/backend) (produkcija). Za to je potrebno pokrenuti i backend (http server, stvarni ili simulirani). Zasad taj primjer izostavljam.
+Preostaje još samo pokretanje aplikacije [s http backendom](./src/api/backend.js) (produkcija). Za to je potrebno pokrenuti i backend (http server, stvarni ili simulirani). Zasad taj primjer izostavljam.
