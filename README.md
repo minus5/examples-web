@@ -2,7 +2,7 @@
 
 Osim u produkciji, očekujemo da kod radi i u dev environmentu, na stagingu i u testovima. Očekujemo i da više aplikacija koristi isti kod. 
 
-Kod povla;enja zavisnosti me]u modulima treba biti oprezan da se ne naruši rad aplikacije u nijednom okruženju. Npr. unit testovi se pokreću nezavisno od bilo kakvih vanjskih utjecaja; trenutna dostupnost nekog remote servisa ne smije utjecati na ishod testa. 
+Kod povlačenja zavisnosti među modulima treba biti oprezan da se ne naruši rad aplikacije u nijednom okruženju. Npr. unit testovi se pokreću nezavisno od bilo kakvih vanjskih utjecaja; trenutna dostupnost nekog remote servisa ne smije utjecati na ishod testa. 
 
 Stoga kod, koliko god je to moguće, treba držati nezavisnim od:
 
